@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    min-height: 100vh;
+    max-width: 100vw;
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 63%, rgba(215, 205, 189, 1) 100%);
+    background: url(../img/kanji_02.png) center/cover no-repeat fixed;
+    background-blend-mode: hard-light;
+
+}
+
+.grandFather {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+
+/* HEADER SECTION*/
+
+.topFather {
+    height: 20em;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgtitle {
+    height: 7.5em;
+    object-fit: cover;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+}
+
+.imglogo {
+    height: 7.5em;
+    object-fit: cover;
+}
+
+/* NAVIGATION */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navButton {
+    height: 2em;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background: linear-gradient(to left, #9d9e9e, #d2d3b3);
+    border: 2px solid #e4e7c6;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.navButton:hover {
+    background: linear-gradient(to left, #fffdfd, #f8f8df);
+    transition: 1s;
+
+}
+
+.divider {
+    height: 1em;
+    background-color: rgb(221, 122, 122);
+}
+
+.imgCoverIndex {
+    height: 20em;
+    background-image: url(../img/shushi_01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgcovercontact {
+    height: 20em;
+    background-image: url(../img/shushi_02.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgsushi {
+    background-image: url(../img/sushianime.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* MID SECTION */
+
+/* Index */
+
+.midFather {
+    height: 70em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leftMid,
+.rightMid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30em;
+
+
+}
+
+.rightMid {
+    text-align: center;
+    letter-spacing: .1em;
+    line-height: 1.4em;
+}
+
+/* Menu */
+
+.foodFather {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.food {
+    height: 20em;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.descFood,
+.infoFood {
+    margin: .2em;
+    height: 10em;
+    width: 12em;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    object-fit: contain;
+
+
+    color: #000000;
+    background: radial-gradient(circle, rgba(255, 221, 221, 1) 27%, rgba(255, 255, 255, 1) 71%);
+}
+
+.price {
+font-size: 1.6em;
+
+    visibility: hidden;
+    height: 5em;
+    width: 6em;
+
+    border:solid black 2px;
+    border-radius: 10px;
+}
+.descFood img {
+    padding-top: 2em;
+}
+
+.descFood:hover img {
+    height: 12em;
+    width: 12em;
+    transition: .5s;
+    margin-bottom: 3em;
+}
+p:hover, img:hover + .price {
+    visibility: visible;
+}
+.infoFood:hover p{
+    font-size: 1.6em;
+    visibility: visible;
+    transition: .5s;
+}
+/* FOOTER SECTION */
+
+.botFather {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 59%, rgba(219, 140, 140, 1) 100%);
+
+}
+
+.leftBot,
+.rightBot {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    object-fit: contain;
+}
+.rightBot {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rrss {
+    height: 2em;
+    width: 2em;
+    margin: 2em;
+
+}
