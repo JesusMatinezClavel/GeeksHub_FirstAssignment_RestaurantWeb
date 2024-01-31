@@ -1,10 +1,12 @@
-gi# GH_RestaurantWebSite
+# GH_RestaurantWebSite
 
+[Enlace a la web]
 https://jesusmatinezclavel.github.io/GeeksHub_FirstAssignment_RestaurantWeb/
 
 
 Este proyecto es el primer trabajo oficial del BootCamp FullStackDeveloper de GeeksHub, y consiste en la creación de **la página web de un restaurante**, incluyendo la página principal, una página de contacto y otra página para el menú.
 
+[enlace al repositorio de GitHub]
 https://github.com/JesusMatinezClavel/GeeksHub_FirstAssignment_RestaurantWeb
 
 ![**cabecera del menú de inicio en una pantalla de móvil**](https://github.com/JesusMatinezClavel/GeeksHub_FirstAssignment_RestaurantWeb/assets/157738112/38fec55f-7872-4650-92f8-da2ad46d2545)
