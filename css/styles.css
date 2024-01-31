@@ -57,30 +57,31 @@ body {
 /* NAVIGATION */
 
 .nav {
+    font-size: 90%;
+    letter-spacing: 1em;
+    font-weight: bold;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover {
+    height: 4em;
+    color:  rgb(221, 122, 122);
+}
+
 .navButton {
-    height: 2em;
-    width: 8em;
+    height: 3em;
+
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-    background: linear-gradient(to left, #9d9e9e, #d2d3b3);
-    border: 2px solid #e4e7c6;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.navButton:hover {
-    background: linear-gradient(to left, #fffdfd, #f8f8df);
-    transition: 1s;
-
 }
 
 .divider {
@@ -128,35 +129,68 @@ body {
 .leftMid,
 .rightMid {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    height: 30em;
+    overflow: auto;
+    text-align: center;
+    line-height: 2em;
 
-
+    height: 40em;
 }
-
+.leftMid p{
+    width: 90%;
+}
+.subtitle {
+    color: rgb(177, 29, 29);
+    font-weight: bold;
+}
 .rightMid {
+    overflow:auto ;
     text-align: center;
     letter-spacing: .1em;
     line-height: 1.4em;
 }
-
-/* Menu */
-
-.foodFather {
+.rightMidContact {
+    overflow:auto ;
+    text-align: center;
+    letter-spacing: .1em;
+    line-height: 1.4em;
+}
+.boxFather {
+    display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
+.contactBox {
+    height: 9em;
+    width: 10em;
+    border-radius: 10%;
+    border:solid 2px rgb(122, 33, 33);
+    background-color: rgb(175, 175, 175);
+
+    overflow: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactBox:hover {
+    border:solid 2px rgb(165, 77, 77);
+    background: rgb(233,176,176);
+    background: radial-gradient(circle, rgba(233,176,176,0.7021183473389356) 0%, rgb(255, 255, 255) 56%);
+}
+/* Menu */
 
 .food {
     height: 20em;
 
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     text-align: center;
@@ -167,9 +201,12 @@ body {
 .infoFood {
     margin: .2em;
     height: 10em;
-    width: 12em;
+    width: 18em;
 
-    text-align: center;
+    text-align: center;    
+
+    font-size:1.3em;
+    overflow: auto;
 
     display: flex;
     flex-direction: column;
@@ -177,39 +214,23 @@ body {
     align-items: center;
 
     object-fit: contain;
-
-
     color: #000000;
-    background: radial-gradient(circle, rgba(255, 221, 221, 1) 27%, rgba(255, 255, 255, 1) 71%);
+    background: rgb(233,176,176);
+background: radial-gradient(circle, rgba(233,176,176,0.7021183473389356) 0%, rgba(255,255,255,0) 56%);
 }
-
+.colorPrice {
+    color: rgb(177, 29, 29);
+}
 .price {
-font-size: 1.6em;
+    font-weight: bold;
 
     visibility: hidden;
     height: 5em;
     width: 6em;
-
-    border:solid black 2px;
-    border-radius: 10px;
 }
-.descFood img {
-    padding-top: 2em;
-}
-
-.descFood:hover img {
-    height: 12em;
-    width: 12em;
-    transition: .5s;
-    margin-bottom: 3em;
-}
-p:hover, img:hover + .price {
+img:hover + .price {
     visibility: visible;
-}
-.infoFood:hover p{
-    font-size: 1.6em;
-    visibility: visible;
-    transition: .5s;
+    transition: 2s;
 }
 /* FOOTER SECTION */
 
@@ -224,7 +245,6 @@ p:hover, img:hover + .price {
 
 .leftBot,
 .rightBot {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
