@@ -167,6 +167,10 @@ a:hover {
 .contactBox {
     height: 9em;
     width: 10em;
+    border-radius: 10%;
+    border:solid 2px rgb(122, 33, 33);
+    background-color: rgb(175, 175, 175);
+
     overflow: auto;
 
     display: flex;
