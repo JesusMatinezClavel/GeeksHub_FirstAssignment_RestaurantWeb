@@ -167,10 +167,6 @@ a:hover {
 .contactBox {
     height: 9em;
     width: 10em;
-    border-radius: 10%;
-    border:solid 2px rgb(122, 33, 33);
-    background-color: rgb(175, 175, 175);
-
     overflow: auto;
 
     display: flex;
@@ -179,9 +175,9 @@ a:hover {
 }
 
 .contactBox:hover {
-    border:solid 2px rgb(165, 77, 77);
+    border:none;
     background: rgb(233,176,176);
-    background: radial-gradient(circle, rgba(233,176,176,0.7021183473389356) 0%, rgb(255, 255, 255) 56%);
+    background: radial-gradient(circle, rgba(233,176,176,0.7021183473389356) 0%, rgba(255,255,255,0) 56%);
 }
 /* Menu */
 .food {
@@ -215,7 +211,7 @@ a:hover {
     object-fit: contain;
     color: #000000;
     background: rgb(233,176,176);
-background: radial-gradient(circle, rgba(233,176,176,0.7021183473389356) 0%, rgba(255,255,255,0) 56%);
+    background: radial-gradient(circle, rgba(233,176,176,0.7021183473389356) 0%, rgba(255,255,255,0) 56%);
 }
 .colorPrice {
     color: rgb(177, 29, 29);
