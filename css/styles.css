@@ -251,6 +251,7 @@ img:hover + .price {
     object-fit: contain;
 }
 .rightBot {
+    width: 30em;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
