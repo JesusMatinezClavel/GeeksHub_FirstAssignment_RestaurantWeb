@@ -19,7 +19,7 @@ https://github.com/JesusMatinezClavel/GeeksHub_FirstAssignment_RestaurantWeb
 4. Estructura de archivo
 
 
-## Sobre el proyecto
+## 1. Sobre el proyecto
 
 Este proyecto tenía la principal intención de conseguir construir una página web con un diseño responsive utilizando la tecnología de Bootstrap. Más allá de esta norma el resto del diseño ha sido creado por los alumnos, por lo que yo he decidido hacer mi web de un restaurante japonés.
 Para conseguir este diseño responsive he utilizado una container-fluid de Bootstrap en la que he ido introduciendo distintos div's para organizalos a mi gusto.
@@ -34,7 +34,7 @@ Otros problemas que he ido encontrando han sido para colocar algunos div's en su
 
 ![pantalla movil](https://github.com/JesusMatinezClavel/GeeksHub_FirstAssignment_RestaurantWeb/assets/157738112/b787b3d9-e277-43cb-b7e4-d21aae02256b)
 
-## Sobre el diseño
+## 2. Sobre el diseño
 
 El diseño lo he basado en un restaurante japonés de Valencia, del cual he cogido algunos conceptos de su web y los textos de presentación e historia, además de los dibujos de la comida.
 La elección de colores y de tipografía están basados en los restaurantes japoneses que he encontrado por internet, buscando un tono amable y que genere demasiado contraste.
@@ -43,11 +43,11 @@ La elección de colores y de tipografía están basados en los restaurantes japo
 ![image](https://github.com/JesusMatinezClavel/GeeksHub_FirstAssignment_RestaurantWeb/assets/157738112/920e5849-dd64-49fb-8e8f-f3b2ec81b51c)
 ![image](https://github.com/JesusMatinezClavel/GeeksHub_FirstAssignment_RestaurantWeb/assets/157738112/3ee991bf-e2ff-4bfd-8b09-a501629b9e29)
 
-## Tecnologías
+## 3. Tecnologías
 
 Para este proyecto he utilizado las herramientas que nos enseñaron la semana pasada, tales como **html5** y **css3**. Con estas tecnologías he podido darle un formato a la web así como rellenarla del diseño requerido.
 
-## Estructura del proyecto
+## 4. Estructura del proyecto
 
 ![image](https://github.com/JesusMatinezClavel/GeeksHub_FirstAssignment_RestaurantWeb/assets/157738112/bf3abe96-d070-49ff-8dfe-5b585fdd82ff)
 
