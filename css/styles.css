@@ -125,7 +125,10 @@ a:hover {
     align-items: center;
 
 }
-
+.leftMid:hover, .rightMid:hover {
+    background: rgb(233,176,176);
+    background: radial-gradient(circle, rgba(233,176,176,0.7021183473389356) 0%, rgba(255,255,255,0) 56%);
+}
 .leftMid,
 .rightMid {
     display: flex;
